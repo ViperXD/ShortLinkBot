@@ -40,9 +40,9 @@ def aboutTheBot(update, context):
 
     keyboard = [
         [
-            telegram.InlineKeyboardButton((emoji.emojize(":loop:", use_aliases=True)) + "Channel",
-                                          url="t.me/theostrich"),
-            telegram.InlineKeyboardButton("👥Support Group", callback_data='2'),
+            telegram.InlineKeyboardButton((emoji.emojize(":loop:", use_aliases=True)) + "⚙CHANNEL⚙",
+                                          url="t.me/VKPROJECTS"),
+            telegram.InlineKeyboardButton("⚙GROUP⚙", callback_data='2'),
         ],
         [telegram.InlineKeyboardButton((emoji.emojize(":bookmark:", use_aliases=True)) + "Add Me In Group",
                                        url="https://t.me/dwindle_Bot?startgroup=new")],
@@ -53,11 +53,10 @@ def aboutTheBot(update, context):
     update.message.reply_text("<b>Hey! My name is Dwindle.</b>"
                               "\nI can handle links in different ways."
                               "\n\n<b>About Me :</b>"
-                              "\n\n  - <b>Name</b>        : Dwindle"
-                              "\n\n  - <b>Creator</b>      : @theostrich"
+                              "\n\n  - <b>Name</b>        : "
+                              "\n\n  - <b>Creator</b>      : @VKPROJECTS"
                               "\n\n  - <b>Language</b>  : Python 3"
                               "\n\n  - <b>Library</b>       : <a href=\"https://github.com/python-telegram-bot/python-telegram-bot/\">python-telegram-bot</a>"
-                              "\n\n  - <b>Source Code</b>  : <a href=\"https://github.com/RabbitFored/Dwindle/\">Dwindle-Source</a>"
                               "\n\nIf you enjoy using me and want to help me survive, do donate with the /donate command - my creator will be very grateful! Doesn't have to be much - every little helps! Thanks for reading :)",
                               parse_mode='html', reply_markup=reply_markup, disable_web_page_preview=True)
 
