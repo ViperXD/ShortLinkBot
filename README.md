@@ -8,4 +8,4 @@ Can be found on telegram as [Dwindle](https://t.me/dwindle_Bot).
 For any questions/issues using this bot, please head to [this chat](https://t.me/ostrichdiscussion/)
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RabbitFored/Dwindle-telegram-bot/tree/beta)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/v-v-r-official/ShortLinkBot)
