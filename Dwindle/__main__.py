@@ -42,10 +42,10 @@ def aboutTheBot(update, context):
         [
             telegram.InlineKeyboardButton((emoji.emojize(":loop:", use_aliases=True)) + "⚙CHANNEL⚙",
                                           url="t.me/VKPROJECTS"),
-            telegram.InlineKeyboardButton("⚙GROUP⚙", callback_data='2'),
+            telegram.InlineKeyboardButton("Back", callback_data='2'),
         ],
         [telegram.InlineKeyboardButton((emoji.emojize(":bookmark:", use_aliases=True)) + "Add Me In Group",
-                                       url="https://t.me/dwindle_Bot?startgroup=new")],
+                                       url="https://t.me/UrlShorten_RoBot?startgroup=new")],
     ]
 
     reply_markup = telegram.InlineKeyboardMarkup(keyboard)
