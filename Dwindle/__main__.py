@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 def start(update, context):
     update.message.reply_text(
-        "<b>Hi {} {} ! \n\nI'm <a href=\"tg://user?id=1451118099\">Short Link Bot</a> - A Simple URL shortener bot."
+        "<b>Hi {} {} ! \n\nI'm <a href=\"tg://user?id=1451118099\">Short Link Bot</a> by @vkprojects - A Simple URL shortener bot."
         "\n\nSend me any link , I can short it for You."
         "\n\nHit </b>/help<b> to find out more about how to use me.</b>".format(update.effective_user.first_name, (
             emoji.emojize(":wave:", use_aliases=True))), parse_mode='html',
@@ -44,8 +44,8 @@ def aboutTheBot(update, context):
                                           url="t.me/VKPROJECTS"),
             telegram.InlineKeyboardButton("Back", callback_data='2'),
         ],
-        [telegram.InlineKeyboardButton((emoji.emojize(":bookmark:", use_aliases=True)) + "Add Me In Group",
-                                       url="https://t.me/UrlShorten_RoBot?startgroup=new")],
+        [telegram.InlineKeyboardButton((emoji.emojize(":bookmark:", use_aliases=True)) + "⚙GROUP⚙",
+                                       url="https://t.me/VKP_BOTS")],
     ]
 
     reply_markup = telegram.InlineKeyboardMarkup(keyboard)
