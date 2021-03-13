@@ -22,7 +22,7 @@ def start(update, context):
 
 def help(update, context):
     update.message.reply_text("*Hey! My name is Dwindle.* "
-                              "\n\nI am a link shortener bot, here to help you to shorten your links!"
+                              "\n\nI am a link shortener bot by @vkprojects here to help you to shorten your links!"
                               "\nI have lots of handy features to help You"
                               "\n\n*Helpful commands:*"
                               "\n\t\t- /start: Starts me! You've probably already used this."
@@ -53,7 +53,7 @@ def aboutTheBot(update, context):
     update.message.reply_text("<b>Hey! My name is Dwindle.</b>"
                               "\nI can handle links in different ways."
                               "\n\n<b>About Me :</b>"
-                              "\n\n  - <b>Name</b>        : "
+                              "\n\n  - <b>Name</b>        : Short Link Bot"
                               "\n\n  - <b>Creator</b>      : @VKPROJECTS"
                               "\n\n  - <b>Language</b>  : Python 3"
                               "\n\n  - <b>Library</b>       : <a href=\"https://github.com/python-telegram-bot/python-telegram-bot/\">python-telegram-bot</a>"
@@ -74,9 +74,9 @@ def button(update, context):
 def donate(update, context):
     keyboard = [
         [
-            telegram.InlineKeyboardButton("Contribute",
-                                          url="https://github.com/RabbitFored"),
-            telegram.InlineKeyboardButton("Paypal Us",url="https://paypal.me/donateostrich"),
+            telegram.InlineKeyboardButton("PayPal",
+                                          url="https://t.me/vkprojects/5"),
+            telegram.InlineKeyboardButton("Join On My Channel",url="t.me/VKPROJECTS"),
         ],
     ]
 
